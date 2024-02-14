@@ -1,15 +1,27 @@
 #divParent{
-  background-color: #31b5ac;
+  
+  
   width: 400px;
   height: 400px;
   margin: auto;
   margin-top: 200px;
   padding-top: 150px;
-  padding-left: 100px;
+  padding-left: 100px
+
+}
+
+html { 
+  background: url(/Images/fondEcran.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: color(black);
 }
 
 /********************************************************** CSS signup *****************************************************/
 body {font-family: Arial, Helvetica, sans-serif;}
+    
 * {box-sizing: border-box;}
 
 /* Full-width input fields */
@@ -23,10 +35,12 @@ input[type=text], input[type=password] {
 }
 
 #butInscription{
-  background-color: #c3cb20;
+  background-color: #414441fb;
+  color: #c2abab;
   border-color: rgb(90, 80, 80);
   border-style: solid;
   border-width: 3px;
+  
 }
 
 /* Add a background color when the inputs get focus */
@@ -103,12 +117,12 @@ hr {
   top: 15px;
   font-size: 40px;
   font-weight: bold;
-  color: #f1f1f1;
+  color: #e00303;
 }
 
 .close:hover,
 .close:focus {
-  color: #f44336;
+  color: #f4a836;
   cursor: pointer;
 }
 
@@ -138,7 +152,8 @@ input[type=text], input[type=password] {
 }
 
 #butConnexion{
-  background-color: #8c9217;
+  background-color: #414441fb;
+  color: #c2abab;
   border-color: rgb(90, 80, 80);
   border-style: solid;
   border-width: 3px;
@@ -146,7 +161,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  background-color: #04AA6D;
+  background-color: rgb(0, 245, 155);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -162,14 +177,13 @@ button:hover {
 /* Extra styles for the cancel button */
 .cancelbtn {
   width: auto;
-  padding: 10px 18px;
+  padding: 14px 18px;
   background-color: #f44336;
 }
 
 /* Center the image and position the close button */
 .imgcontainer {
   text-align: center;
-  margin: 24px 0 12px 0;
   position: relative;
 }
 
@@ -204,7 +218,9 @@ span.psw {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #41444188;
+  color: #c2abab;
+  border-color: rgb(90, 80, 80);
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
@@ -215,14 +231,15 @@ span.psw {
   position: absolute;
   right: 25px;
   top: 0;
-  color: #000;
-  font-size: 35px;
+  color: #dad2d2;
+  font-size: 50px;
   font-weight: bold;
+  
 }
 
 .close:hover,
 .close:focus {
-  color: red;
+  color: rgba(247, 72, 72, 0.918);
   cursor: pointer;
 }
 

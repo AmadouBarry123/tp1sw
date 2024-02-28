@@ -1,6 +1,6 @@
 #addTask{
-    background-color: rebeccapurple;
-    color: gold;
+    background-color: rgb(117, 114, 121);
+    color: rgb(212, 206, 171);
 }
 
 .sidebar {
@@ -23,16 +23,16 @@
 .w3-bar-block.w3-center .w3-bar-item{text-align:center}.w3-block{display:block;width:100%}
 
 #div1{
-    background-color: #a1a73d;
+    background-color: #33332d;
     margin-bottom: 5px;
     margin-top: 5px;
 }
 #div2{
-    background-color: #afb634;
+    background-color: #5e6129;
     margin-bottom: 5px;
 }
 #div3{
-    background-color: rgb(195, 202, 65);
+    background-color: rgb(69, 71, 23);
     margin-bottom: 5px;
 }
 
@@ -44,14 +44,14 @@ body {
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid gold;
+    border: 1px solid rgb(95, 93, 83);
     border-radius: 5px;
-    background-color: rgb(153, 51, 136);
-    color: gold;
+    background-color: rgb(126, 117, 124);
+    color: rgb(165, 163, 155);
    }
    input{
     background: rgb(253, 253, 253);
-    color: gold;
+    color: rgb(151, 151, 151);
    }
    ::placeholder{
     color: rgb(39, 39, 34);

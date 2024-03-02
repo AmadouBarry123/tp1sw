@@ -80,7 +80,7 @@ function addTask() {
 
     const deleteBtn = document.createElement("img");
 
-    deleteBtn.setAttribute("src", "./Images/icons8-delete-60.png");
+    deleteBtn.setAttribute("src", "./Images/icons8-delete-60.png" );
     deleteBtn.setAttribute('height', '18px');
     deleteBtn.setAttribute('width', '18px');
 

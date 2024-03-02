@@ -74,9 +74,8 @@ function addTask() {
 
     listItem.appendChild(editBtn);
 
-    editBtn.addEventListener("click", () => {
-        taskInput.value = listItem.textContent
-        listItem.remove()
+    document.getElementById('clearAll').addEventListener('click', function() {
+        localStorage.clear();
     });
 
     const deleteBtn = document.createElement("img");
@@ -85,9 +84,7 @@ function addTask() {
     deleteBtn.setAttribute('height', '18px');
     deleteBtn.setAttribute('width', '18px');
 
-    // La méthode JavaScript appendChild() est utilisée pour insérer un nouveau noeud ou repositionner un
 
-    //noeud existant en tant que dernier enfant d'un noeud parent particulier.
 
     listItem.appendChild(deleteBtn);
 

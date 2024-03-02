@@ -26,6 +26,7 @@ function userInfo() {
   // Comparer les valeurs pour voir si sa fonctionne
   if(username === storedUsername && password === storedPassword) {
       alert('Connexion réussie');
+      // Si on arrive a se connecter on rentre dans notre fichier page principale 
       window.location.href = 'accueil.html';
    
   } else {
